@@ -5,3 +5,9 @@
 //
 // Escreva sua solução abaixo:
 
+function somarNumeros(...numeros) {
+  return numeros.reduce((acc, num) => acc + num, 0);
+}
+
+const resultado = somarNumeros(10, 20, 30, 40, 50);
+console.log(resultado); // Saída: 150

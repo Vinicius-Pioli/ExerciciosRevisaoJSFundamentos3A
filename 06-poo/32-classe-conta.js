@@ -5,3 +5,25 @@
 //
 // Escreva sua solução abaixo:
 
+class ContaBancaria {
+  #saldo = 0;
+
+  depositar(valor) {
+    this.#saldo += valor;
+  }
+
+  sacar(valor) {
+    if (valor <= this.#saldo) {
+      this.#saldo -= valor;
+    }
+  }
+
+  consultarSaldo() {
+    return this.#saldo;
+  }
+}
+
+const conta = new ContaBancaria();
+conta.depositar(100);
+conta.sacar(40);
+console.log(conta.consultarSaldo()); // Saída: 60

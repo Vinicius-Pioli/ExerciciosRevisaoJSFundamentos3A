@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+const funcionario = {
+  nome: "Carlos",
+  cargo: "Desenvolvedor",
+  salario: 5000
+};
+
+console.log("Nome:", funcionario.nome);
+console.log("Cargo:", funcionario.cargo);

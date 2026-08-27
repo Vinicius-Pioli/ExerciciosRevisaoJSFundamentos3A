@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+const pedido = {
+  numero: 1024,
+  cliente: "Mariana",
+  valorTotal: 199.90
+};
+
+const pedidoJSON = JSON.stringify(pedido);
+
+console.log(pedidoJSON);

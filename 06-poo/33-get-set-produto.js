@@ -5,3 +5,20 @@
 //
 // Escreva sua solução abaixo:
 
+class Produto {
+  #preco = 0;
+
+  get preco() {
+    return this.#preco;
+  }
+
+  set preco(valor) {
+    if (valor >= 0) {
+      this.#preco = valor;
+    }
+  }
+}
+
+const produto = new Produto();
+produto.preco = 50;
+console.log(produto.preco); // Saída: 50

@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const converterParaFahrenheit = function(celsius) {
+  return celsius * 1.8 + 32;
+};
+
+console.log(converterParaFahrenheit(25)); 

@@ -4,3 +4,12 @@
 //
 // Escreva sua solução abaixo:
 
+const pessoa = {
+  nome: "Ana",
+  profissao: "Engenheira",
+  apresentar() {
+    return `Olá, meu nome é ${this.nome} e sou ${this.profissao}.`;
+  }
+};
+
+console.log(pessoa.apresentar());

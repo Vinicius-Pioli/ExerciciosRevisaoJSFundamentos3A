@@ -7,3 +7,9 @@
 //
 // Escreva sua solução abaixo:
 
+function calcularDesconto(preco, desconto) {
+  return preco - (preco * desconto / 100);
+}
+
+// Teste da função
+console.log("Preço final: R$ " + calcularDesconto(200, 10));

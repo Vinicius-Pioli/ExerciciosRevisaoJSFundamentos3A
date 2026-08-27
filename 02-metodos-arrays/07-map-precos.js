@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const precos = [50, 100, 150, 200];
+const precosComAumento = precos.map(preco => preco * 1.1);
+
+console.log("Original:", precos);
+console.log("Com aumento:", precosComAumento);

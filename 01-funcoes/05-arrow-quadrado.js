@@ -4,3 +4,6 @@
 //
 // Escreva sua solução abaixo:
 
+const calcularQuadrado = num => num * num;
+
+console.log(calcularQuadrado(8));
